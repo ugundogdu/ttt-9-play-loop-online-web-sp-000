@@ -44,5 +44,6 @@ def play(board)
     turn(board)
     puts counter
     counter += 1
+    sleep 1
   end
 end
