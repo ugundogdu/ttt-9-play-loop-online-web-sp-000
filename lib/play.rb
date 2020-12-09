@@ -40,7 +40,7 @@ end
 def play(board)
   counter = 0
 
-  while counter < 10 do
+  while (counter < 10) do
     turn(board)
     counter += 1
   end
