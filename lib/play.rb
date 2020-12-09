@@ -42,6 +42,7 @@ def play(board)
 
   while (counter < 10) do
     turn(board)
+    puts counter
     counter += 1
   end
 end
