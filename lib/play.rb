@@ -42,8 +42,6 @@ def play(board)
 
   while (counter < 9) do
     turn(board)
-    puts counter
     counter += 1
-    sleep 1
   end
 end
